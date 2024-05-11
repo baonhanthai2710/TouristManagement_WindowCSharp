@@ -11,7 +11,7 @@ namespace DA_LTTQ
         string conStr;
         public DataConnection()
         {
-            conStr = @"Data Source=BAONHAAN\SQLEXPRESS;Initial Catalog=Winform;Integrated Security=True";
+            conStr = @"Data Source=BAONHAAN\SQLEXPRESS;Initial Catalog=DA_LTTQ;Integrated Security=True";
         }
 
         public SqlConnection getConnect()
